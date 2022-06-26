@@ -100,13 +100,6 @@
 				transform = FUSELAGE_001
 				transform = FRCS_MODULE
 			}
-			TEXTURE
-			{
-				texture = SPACE_SHUTTLE_SYSTEM/Cabin/CABINE_ENTERPRISE_NRM
-				isNormalMap = true
-				transform = FUSELAGE_001
-				transform = FRCS_MODULE
-			}
 		}
 		SUBTYPE
 		{
