@@ -5,7 +5,7 @@ My personal fork of SpaceODY's Space-Shuttle-System-Expanded. Tested in 1.10
 Includes some texture reworks (ET, SRB and elevons) and RO config tweaks.  
 In addition there is a new cabin variant with an empty IVA cockpit, only the shell and no switches/gauges, a lot lighter on FPS when landing IVA.
 
-# Increased crossrange branch (experimental
+# Increased crossrange branch (experimental)
 
 The *xrange_increase* branch gives a Ferram lifting surface config to the Cargo Bay lift to boost reentry crossrange.  
 Two downsides:
