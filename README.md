@@ -2,7 +2,7 @@
 
 My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modifications. Tested in 1.10
 
-Non-exhaustive list of changes:
+Non-exhaustive list of changes:  
 **Textures and part variants:**
 - custom ET textures
 - New SRB texture variants for booster and nosecone, added lighter Filament-Wound booster variant 
