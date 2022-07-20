@@ -1,9 +1,30 @@
 # Space Shuttle System Expanded
 
-My personal fork of SpaceODY's Space-Shuttle-System-Expanded. Tested in 1.10
+My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modifications. Tested in 1.10
 
-Includes some texture reworks (ET, SRB and elevons), reworked Waterfall configs for SSME, SRBs and OMS, and RO config tweaks.  
-In addition there is a new cabin variant with an empty IVA cockpit, only the shell and no switches/gauges, a lot lighter on FPS when landing IVA.
+Non-exhaustive list of changes:
+**Textures and part variants:**
+- custom ET textures
+- New SRB texture variants for booster and nosecone, added lighter Filament-Wound booster variant 
+- Cabin texture reworked, ejection seat panels for Enterprise and old Columbia, custom tile patterns around the side hatch, unique tiles on the forward RCS block
+- New tail texture for Challenger
+- New elevon variant with original Columbia tile pattern
+- New normal maps for all part variants
+- OMS pod variant without black tiles
+- New "empty cockpit" cabin variant with only the IVA shell and no gauges, lighter on the FPS as I like to land IVA but have no use for the gauges
+
+**Waterfall**
+- new effects for the SRBs, made a custom smoke-only Smokescreen config for the smoke column
+- rework of the Waterfall OMS and SSME configs with minor tweaks
+
+**RO configs**
+- higher SRB decoupler force so that they will separate cleanly without the aft separation motors (broken)
+- lower wheel braking force
+- thermal configs taken from the updated configs in the main RO release, bit higher tolerance on the nose cabin
+- CL adjustments for the cargo bay 
+- elevon and tail surface Ferram control settings come pre-configured for my Shuttle Entry script
+
+
 
 # Increased crossrange branch (experimental, not recommended)
 
