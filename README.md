@@ -2,6 +2,13 @@
 
 My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modifications. Tested in 1.10
 
+## DEPENDENCIES (install the latest compatible version):
+- KSPWheel
+- Community Resource Pack
+- Textures Unlimited
+- TAC Life Support (TACLS)
+
+
 Non-exhaustive list of changes:  
 **Textures and part variants:**
 - custom ET textures
