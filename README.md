@@ -1,6 +1,6 @@
 # Space Shuttle System Expanded
 
-My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modifications. Tested in 1.10
+My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modifications. Tested in 1.12.3
 
 ## DEPENDENCIES (install the latest compatible version):
 - KSPWheel
