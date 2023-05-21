@@ -3,6 +3,8 @@
 My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modifications. Tested in 1.12.3
 
 ## DEPENDENCIES (install the latest compatible version):
+- ASET Consolidated Avionics Pack (for the cockpit props)
+- B9 Parts Switch
 - KSPWheel
 - Community Resource Pack
 - Textures Unlimited
