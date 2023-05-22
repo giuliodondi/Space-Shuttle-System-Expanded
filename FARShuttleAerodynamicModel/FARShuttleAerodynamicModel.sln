@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FARShuttleAerodynamicModel", "FARShuttleAerodynamicModel.csproj", "{F91CF19B-6636-4AB7-AFCF-7C7F8FF66B42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F91CF19B-6636-4AB7-AFCF-7C7F8FF66B42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F91CF19B-6636-4AB7-AFCF-7C7F8FF66B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F91CF19B-6636-4AB7-AFCF-7C7F8FF66B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F91CF19B-6636-4AB7-AFCF-7C7F8FF66B42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B8FC728-C1BD-479E-9F45-4892B3862279}
+	EndGlobalSection
+EndGlobal
