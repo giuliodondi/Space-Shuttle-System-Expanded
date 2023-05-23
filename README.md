@@ -9,6 +9,7 @@ My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modific
 - Community Resource Pack
 - Textures Unlimited
 - TAC Life Support (TACLS)
+- [My personal fork of Ferram Aerospace Research if you want to use the custom aerodynamic model](https://github.com/giuliodondi/Ferram-Aerospace-Research-modded)
 
 
 Non-exhaustive list of changes:  
