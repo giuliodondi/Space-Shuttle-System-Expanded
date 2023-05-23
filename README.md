@@ -17,7 +17,7 @@ My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modific
 ### I seem to have found a way to give the Space Shuttle realistic aerodynamics, at long last.
 
 Th emod now comes with a single 'Orbiter' part, which is the assembly of the cabin, fuselage, engine mount and both wings.  
-Having a single part that comprises most of the orbiter allowed me to slap a custom module (**FARSpaceShuttleAerodynamicModel**) that implements the realistic Shuttle lift and drag coefficients taken from [taken from the NASA technical documents](https://archive.org/details/nasa_techdoc_19810067693).
+Having a single part that comprises most of the orbiter allows me to slap a custom module that implements the realistic Shuttle lift and drag coefficients [taken from the NASA technical documents](https://archive.org/details/nasa_techdoc_19810067693).
 
 The module config is exactly the same as the Ferram wing aerodynamic module, as it must inherid directly from that module class to work in Ferram:
 
