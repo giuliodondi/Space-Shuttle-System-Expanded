@@ -16,6 +16,10 @@ namespace ferram4
 
         private double radiansToDegrees = (180 / Math.PI);
 
+        private double maxOverridableAoa = 50;
+
+        private double minOverridableAoa = -10;
+
 
         protected override Vector3d CalculateAerodynamicCenter(double MachNumber, double AoA, Vector3d WC)
         {
@@ -132,8 +136,11 @@ namespace ferram4
                 Cd += Cd0;
             }
 
-            Cl = getSpaceShuttleCL(MachNumber, AoA);
-            Cd = getSpaceShuttleCd(MachNumber, AoA);
+            //do not override unless AoA is acceptable
+            if (minOverridableAoa <= AoA && AoA <= maxOverridableAoa) {
+                Cl = getSpaceShuttleCL(MachNumber, AoA);
+                Cd = getSpaceShuttleCd(MachNumber, AoA);
+            }
 
             //AC shift due to flaps
             Vector3d ACShiftVec;
@@ -152,6 +159,8 @@ namespace ferram4
             Cl -= Cl * stall * 0.769;
             Cd += Cd * stall * 3;
             //Cd = Math.Max(Cd, CdMax * (1 - CosAoA * CosAoA));
+
+            Cd = Math.Max(Cd, 0.01);    //artificial
 
             AerodynamicCenter += ACShiftVec;
 
