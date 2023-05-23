@@ -34,16 +34,33 @@ Non-exhaustive list of changes:
 - elevon and tail surface Ferram control settings come pre-configured for my Shuttle Entry script
 
 
+# Realistic Aerodynamics branch (experimental)
 
-# Increased crossrange branch (experimental, not recommended)
+The *orbiter_mono* branch contains my promising attempt at giving the Space Shuttle realistic aerodynamics
 
-The *xrange_increase* branch gives a Ferram lifting surface config to the Cargo Bay lift to increase hypersonic L/D and boost reentry crossrange.  
-Caveats:
-- The extra crossrange only comes into play at low AoA (20°) where L/D is higher at hypersonic speeds. This is unrealistic as the real Shuttle would have probably violated some thermal constraint at such a low AoA.
-- At subsonic speeds, the Shuttle glides way better than it should
-- It has pitch stability issues. At high Mach and high AoA it has a strong pitch-down tendency which maxes out the flap trimming mechanism in my entry script, although it's still well within the RCS pitch authority. At low Mach the centre of lift apparently shifts forwards and it becomes pitch-unstable.  
-At low speeds the Ferram AoA control feedback functionality is critical to maintain control, with a positive setting on elevon and body flap so that they will always move the nose towards the prograde direction. But it must not be enabled during hypersonic entry or the Shuttle won't be able to maintain high AoA.  
-~~My entry script now automatically takes care of this during approach guidance.~~ It's very unreliable and required too many ad-hoc modifications than I liked.
+The Shuttle Orbiter now comes with a single 'Orbiter' part, which is the assembly of the cabin, fuselage, engine mount and both wings.  
+Having a single part that comprises most of the orbiter allowed me to define a **FARSpaceShuttleAerodynamicModel** that implements the realistic Shuttle lift and drag coefficients taken from [taken from the NASA technical documents](https://archive.org/details/nasa_techdoc_19810067693).
+
+The module config is exactly the same as the Ferram wing aerodynamic module:
+
+%MODULE[FARSpaceShuttleAerodynamicModel]  
+	{  
+		%MAC = 15.43  
+		%MidChordSweep = 45  
+		%b_2 = 23.79  
+		%TaperRatio = 0.185  
+		%rootMidChordOffsetFromOrig = 9.175, 3.0, 0  
+		%massOverride = 0  
+	}
+
+these configs are tailored and balanced to the Shuttle's dimensions.
+
+**Caveats / Issues**
+
+- the aerodynamic model is only realistic on the range of angles of attack where I could find data. Outside of it (e.g. if you lose control and spin around) it will behave wildly   
+- I had to split the main landing gear bogey into two separate parts while keeping the nose gear as part of the Orbiter part, to get the deploy animations right  
+- The cabin hatch is no longer functional. Some animation names clash in the assembled parts, and something had to give
+- There appears to be a long-standing bug in KSP where if the root part of your ship is a cargo bay, anything inside of it will have drag calculated even if it should be occluded.
 
 
 
