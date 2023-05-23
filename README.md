@@ -12,7 +12,36 @@ My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modific
 - [My personal fork of Ferram Aerospace Research if you want to use the custom aerodynamic model](https://github.com/giuliodondi/Ferram-Aerospace-Research-modded)
 
 
-Non-exhaustive list of changes:  
+## Realistic Aerodynamics (experimental)
+
+### I seem to have found a way to give the Space Shuttle realistic aerodynamics, at long last.
+
+Th emod now comes with a single 'Orbiter' part, which is the assembly of the cabin, fuselage, engine mount and both wings.  
+Having a single part that comprises most of the orbiter allowed me to slap a custom module (**FARSpaceShuttleAerodynamicModel**) that implements the realistic Shuttle lift and drag coefficients taken from [taken from the NASA technical documents](https://archive.org/details/nasa_techdoc_19810067693).
+
+The module config is exactly the same as the Ferram wing aerodynamic module, as it must inherid directly from that module class to work in Ferram:
+
+%MODULE[FARSpaceShuttleAerodynamicModel]  
+	{  
+		%MAC = 15.43  
+		%MidChordSweep = 45  
+		%b_2 = 23.79  
+		%TaperRatio = 0.185  
+		%rootMidChordOffsetFromOrig = 9.175, 3.0, 0  
+		%massOverride = 0  
+	}
+
+these configs are tailored and balanced to the Shuttle's dimensions.
+
+**Caveats / Issues**
+
+- the aerodynamic model is only realistic on the range of angles of attack where I could find data. Outside of it (e.g. if you lose control and spin around) it will behave wildly   
+- I had to split the main landing gear bogey into two separate parts while keeping the nose gear as part of the Orbiter part, to get the deploy animations right  
+- The cabin hatch is no longer functional. Some animation names clash in the assembled parts, and something had to give
+- There appears to be a long-standing bug in KSP where if the root part of your ship is a cargo bay, anything inside of it will have drag calculated even if it should be occluded.
+
+## Other changes:
+
 **Textures and part variants:**
 - custom ET textures
 - New SRB texture variants for booster and nosecone, added lighter Filament-Wound booster variant 
@@ -34,38 +63,9 @@ Non-exhaustive list of changes:
 - CL adjustments for the cargo bay 
 - elevon and tail surface Ferram control settings come pre-configured for my Shuttle Entry script
 
+---
 
-# Realistic Aerodynamics branch (experimental)
-
-The *orbiter_mono* branch contains my promising attempt at giving the Space Shuttle realistic aerodynamics
-
-The Shuttle Orbiter now comes with a single 'Orbiter' part, which is the assembly of the cabin, fuselage, engine mount and both wings.  
-Having a single part that comprises most of the orbiter allowed me to define a **FARSpaceShuttleAerodynamicModel** that implements the realistic Shuttle lift and drag coefficients taken from [taken from the NASA technical documents](https://archive.org/details/nasa_techdoc_19810067693).
-
-The module config is exactly the same as the Ferram wing aerodynamic module:
-
-%MODULE[FARSpaceShuttleAerodynamicModel]  
-	{  
-		%MAC = 15.43  
-		%MidChordSweep = 45  
-		%b_2 = 23.79  
-		%TaperRatio = 0.185  
-		%rootMidChordOffsetFromOrig = 9.175, 3.0, 0  
-		%massOverride = 0  
-	}
-
-these configs are tailored and balanced to the Shuttle's dimensions.
-
-**Caveats / Issues**
-
-- the aerodynamic model is only realistic on the range of angles of attack where I could find data. Outside of it (e.g. if you lose control and spin around) it will behave wildly   
-- I had to split the main landing gear bogey into two separate parts while keeping the nose gear as part of the Orbiter part, to get the deploy animations right  
-- The cabin hatch is no longer functional. Some animation names clash in the assembled parts, and something had to give
-- There appears to be a long-standing bug in KSP where if the root part of your ship is a cargo bay, anything inside of it will have drag calculated even if it should be occluded.
-
-
-
-# Split airbrake branch (experimental)
+## Split airbrake branch (experimental)
 
 The *splitbrake* branch contains a new part I made in Blender from the original DECQ rudder.
 It is an individual rudder panel, a pair of these should be surface-attched to the Shuttle tailfin. Each has their own Ferram configuration so they can act as spoilers individually.  
