@@ -16,7 +16,7 @@ My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modific
 
 ### I seem to have found a way to give the Space Shuttle realistic aerodynamics, at long last.
 
-Th emod now comes with a single 'Orbiter' part, which is the assembly of the cabin, fuselage, engine mount and both wings.  
+The mod now comes with a single 'Orbiter' part, which is the assembly of the cabin, fuselage, engine mount and both wings.  
 Having a single part that comprises most of the orbiter allows me to slap a custom module that implements the realistic Shuttle lift and drag coefficients [taken from the NASA technical documents](https://archive.org/details/nasa_techdoc_19810067693).
 
 The module config is exactly the same as the Ferram wing aerodynamic module, as it must inherid directly from that module class to work in Ferram:
@@ -42,6 +42,11 @@ these configs are tailored and balanced to the Shuttle's dimensions.
 
 ## Other changes:
 
+**Split rudder**
+The rudder is now a functional split airbrake part, with two panel transforms that can be intependently controlled.
+To achieve this I had to re-arrange the part transforms in Unity and also remvoe the Ferram configs, since only one can be put in a .cfg fiel at one time and it controls only one transform at a time.  
+The rudder uses two stock control surface modules now
+
 **Textures and part variants:**
 - custom ET textures
 - New SRB texture variants for booster and nosecone, added lighter Filament-Wound booster variant 
@@ -61,12 +66,6 @@ these configs are tailored and balanced to the Shuttle's dimensions.
 - lower wheel braking force
 - thermal configs taken from the updated configs in the main RO release, bit higher tolerance on the nose cabin
 - CL adjustments for the cargo bay 
-- elevon and tail surface Ferram control settings come pre-configured for my Shuttle Entry script
+- control surface surface Ferram control settings come pre-configured for my Shuttle Entry script
 
 ---
-
-## Split airbrake branch (experimental)
-
-The *splitbrake* branch contains a new part I made in Blender from the original DECQ rudder.
-It is an individual rudder panel, a pair of these should be surface-attched to the Shuttle tailfin. Each has their own Ferram configuration so they can act as spoilers individually.  
-Functionally it works fine, but the open airbrakes generate way too little drag, much less than a B9 procedural surface of the same size
