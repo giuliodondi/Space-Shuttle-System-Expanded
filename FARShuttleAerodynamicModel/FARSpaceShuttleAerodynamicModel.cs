@@ -392,7 +392,8 @@ namespace ferram4
             let FAR predict the final Cl and Cd, extracted the deviations, and fitter with a 2 degree polynomial
              */
 
-            C_d += 0.8 * (-0.015881489614976013
+            
+            C_d += 0.79 * (-0.015881489614976013
                 + -0.0003981020409242033 * aoa1
                 + -0.001160689364231904 * mach1
                 + -9.465932645687637e-05 * aoa2
