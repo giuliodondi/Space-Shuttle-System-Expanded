@@ -11,6 +11,9 @@ My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modific
 - TAC Life Support (TACLS)
 - [My personal fork of Ferram Aerospace Research if you want to use the custom aerodynamic model](https://github.com/giuliodondi/Ferram-Aerospace-Research-modded)
 
+I also advise you to take care of the following:
+- If you use any of the experimental tail control surface parts, you **MUST** go to your KSP settings and wire up the wheel steering to the same controls you use for rudder, otherwise you **WILL** careen off the runway on landing.
+
 
 ## Realistic Aerodynamics (experimental)
 
@@ -42,20 +45,24 @@ these configs are tailored and balanced to the Shuttle's dimensions.
 
 ## Other changes:
 
-**Split rudder**
-The rudder is now a functional split airbrake part, with two panel transforms that can be intependently controlled.
-To achieve this I had to re-arrange the part transforms in Unity and also remvoe the Ferram configs, since only one can be put in a .cfg fiel at one time and it controls only one transform at a time.  
-The rudder uses two stock control surface modules now
+**Tail / Rudder (Experimental)**
+I created a new part which is the assembly of the tail and the split rudder. This should now be a functional split airbrake part, with two panel transforms that can be intependently controlled.
+To achieve this I had to re-arrange the part transforms in Unity and also remove the Ferram configs for the control surface, since only one can be put in a .cfg file at one time and it controls only one transform at a time.  
+The rudder uses two stock control surface modules for now
+
+**Split rudder panel  (Experimental)**
+This is another new part, which is just one of the panels that make up the Shuttle rudder control surface. You can place manually two of these on the standard tail fin and control the mindependently as Ferram control ssurfaces. This is not as draggy as I'd like
 
 **Textures and part variants:**
 - custom ET textures
 - New SRB texture variants for booster and nosecone, added lighter Filament-Wound booster variant 
 - Cabin texture reworked, ejection seat panels for Enterprise and old Columbia, custom tile patterns around the side hatch, unique tiles on the forward RCS block
-- New tail texture for Challenger
+- Fictional Enterprise orbital version
+- New tail texture for Challenger and Columbia SILTS pod
 - New elevon variant with original Columbia tile pattern
 - New normal maps for all part variants
 - OMS pod variant without black tiles
-- New "empty cockpit" cabin variant with only the IVA shell and no gauges, lighter on the FPS as I like to land IVA but have no use for the gauges
+- New "empty cockpit" variant with only the IVA shell and no gauges, lighter on the FPS as I like to land IVA but have no use for the gauges
 
 **Waterfall**
 - new effects for the SRBs, made a custom smoke-only Smokescreen config for the smoke column
