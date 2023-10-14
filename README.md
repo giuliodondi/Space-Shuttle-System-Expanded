@@ -8,8 +8,8 @@ My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modific
 - KSPWheel
 - Community Resource Pack
 - Textures Unlimited
-- TAC Life Support (TACLS)
-- [My personal fork of Ferram Aerospace Research if you want to use the custom aerodynamic model](https://github.com/giuliodondi/Ferram-Aerospace-Research-modded)
+- TAC Life Support or Kerbalism, both are supported (Kerbalism is WIP)
+- [My personal fork of Ferram Aerospace Research for the custom aerodynamic model](https://github.com/giuliodondi/Ferram-Aerospace-Research-modded)
 
 I also advise you to take care of the following:
 - If you use any of the experimental tail control surface parts, you **MUST** go to your KSP settings and wire up the wheel steering to the same controls you use for rudder, otherwise you **WILL** careen off the runway on landing.
