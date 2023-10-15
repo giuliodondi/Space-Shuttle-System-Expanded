@@ -41,7 +41,7 @@ The configs are tailored and balanced to the Shuttle's dimensions.
 **Caveats / Issues**
 
 - The aerodynamic model is only realistic on the range of angles of attack where I could find data. Outside of it (e.g. if you lose control and spin around) it will behave wildly
-- To be able to maintain stability on landing and high-AoA on reentry, I brutally disabled the Cl shift. The model is now adjusted to require little flap trim on Entry and be on the edge of longitudinal stability on landing
+- To be able to maintain stability on landing and high-AoA on reentry, the Cl movement calculations as a function of Mach were brutally disabled. The model is now adjusted to require little flap trim on Entry and be on the edge of longitudinal stability on landing
 - I had to split the main landing gear bogey into two separate parts while keeping the nose gear as part of the Orbiter part, to get the deploy animations right  
 - The cabin hatch is no longer functional. Some animation names clash in the assembled parts, and something had to give
 - There appears to be a long-standing bug in KSP where if the root part of your ship is a cargo bay, anything inside of it will have drag calculated even if it should be occluded.
