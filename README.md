@@ -1,5 +1,7 @@
 # Space Shuttle System Expanded
 
+## Updated October 2023
+
 My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modifications. Tested in 1.12.3
 
 ## DEPENDENCIES (install the latest compatible version):
@@ -22,7 +24,7 @@ My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modific
 The mod now comes with a single 'Orbiter' part, which is the assembly of the cabin, fuselage, engine mount and both wings.  
 Having a single part that comprises most of the orbiter allows me to slap a custom module that implements the realistic Shuttle lift and drag coefficients [taken from the NASA technical documents](https://archive.org/details/nasa_techdoc_19810067693).
 
-The module config is exactly the same as the Ferram wing aerodynamic module, as it must inherid directly from that module class to work in Ferram:
+The module config is exactly the same as the Ferram wing aerodynamic module, as it must inherid directly from that module class to work in Ferram. For example:
 
 %MODULE[FARSpaceShuttleAerodynamicModel]  
 	{  
@@ -34,24 +36,35 @@ The module config is exactly the same as the Ferram wing aerodynamic module, as 
 		%massOverride = 0  
 	}
 
-these configs are tailored and balanced to the Shuttle's dimensions.
+The configs are tailored and balanced to the Shuttle's dimensions.
 
 **Caveats / Issues**
 
-- the aerodynamic model is only realistic on the range of angles of attack where I could find data. Outside of it (e.g. if you lose control and spin around) it will behave wildly   
+- The aerodynamic model is only realistic on the range of angles of attack where I could find data. Outside of it (e.g. if you lose control and spin around) it will behave wildly
+- To be able to maintain stability on landing and high-AoA on reentry, I brutally disabled the Cl shift. The model is now adjusted to require little flap trim on Entry and be on the edge of longitudinal stability on landing
 - I had to split the main landing gear bogey into two separate parts while keeping the nose gear as part of the Orbiter part, to get the deploy animations right  
 - The cabin hatch is no longer functional. Some animation names clash in the assembled parts, and something had to give
 - There appears to be a long-standing bug in KSP where if the root part of your ship is a cargo bay, anything inside of it will have drag calculated even if it should be occluded.
 
-## New rudder parts (Experimental=
+## Functioning split rudder airbrake (Experimental)
 
-**Tail with Rudder**
-I created a new part which is the assembly of the tail and the split rudder. This should now be a functional split airbrake part, with two panel transforms that can be intependently controlled.
-To achieve this I had to re-arrange the part transforms in Unity and also remove the Ferram configs for the control surface, since only one can be put in a .cfg file at one time and it controls only one transform at a time.  
-The rudder uses two stock control surface modules for now
+I expperimented two different ways to get a functioning rudder airbrake, as the old DECQ part is just a useless animation
+
+**Tail control surface**
+I re-baked the model transforms in the Tail control surface part so that they are independently controllable. The part is now configured using stock KSP control surface modules even in RO, because FAR will not accept more than one control surface module on any part.  
+
+The rudder is functional as a speedbrake with some caveats:
+
+- The airbrake sits high up from the centre of mass, as such there is a large pitch up moment when it opens. To trim this out, you need to also activate the body flap as a spoiler part with some negative deflection.
+  This is a totally realistic effect, the real Shuttle digital FCS also used the body flap as a trim device during late reentry
+- When the airbrake is fully deployed there seems to be some control reversal effect, meaning that if you command yaw right, the Orbiter will yaw to the left, of course this disappears when the airbrake is closed. I'm not really sure if this is a realistic effect after all.
+
 
 **Split rudder panel**
-This is another new part, which is just one of the panels that make up the Shuttle rudder control surface. You can place manually two of these on the standard tail fin and control the mindependently as Ferram control ssurfaces. This is not as draggy as I'd like
+This is a new part, which is just one of the panels that make up the Shuttle rudder control surface. You can place manually two of these on the standard tail fin and control the mindependently as Ferram control surfaces.  
+I do not recommend using this part, as it doesn't generate nearly as much drag as I'd like.
+
+
 
 ## Other changes:
 
@@ -59,8 +72,9 @@ This is another new part, which is just one of the panels that make up the Shutt
 - custom ET textures
 - New SRB texture variants for booster and nosecone, added lighter Filament-Wound booster variant 
 - Cabin texture reworked, ejection seat panels for Enterprise and old Columbia, custom tile patterns around the side hatch, unique tiles on the forward RCS block
+- Cargo bay and engine mount texture reworked
 - Fictional Enterprise orbital version
-- New tail texture for Challenger and Columbia SILTS pod
+- Tail texture reworked for Challenger and Columbia SILTS pod
 - New elevon variant with original Columbia tile pattern
 - New normal maps for all part variants
 - OMS pod variant without black tiles
@@ -74,7 +88,7 @@ This is another new part, which is just one of the panels that make up the Shutt
 - higher SRB decoupler force so that they will separate cleanly without the aft separation motors (broken)
 - lower wheel braking force
 - thermal configs taken from the updated configs in the main RO release, bit higher tolerance on the nose cabin
-- CL adjustments for the cargo bay 
-- control surface surface Ferram control settings come pre-configured for my Shuttle Entry script
+- Custom aerodynamics module
+- Control surfaces come pre-configured for my Shuttle Entry script
 
 ---
