@@ -11,9 +11,9 @@ My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modific
 - TAC Life Support or Kerbalism, both are supported (Kerbalism is WIP)
 - [My personal fork of Ferram Aerospace Research for the custom aerodynamic model](https://github.com/giuliodondi/Ferram-Aerospace-Research-modded)
 
-I also advise you to take care of the following:
-- If you use any of the experimental tail control surface parts, you **MUST** go to your KSP settings and wire up the wheel steering to the same controls you use for rudder, otherwise you **WILL** careen off the runway on landing.
-
+**Configuration**
+- If you use a joystick, I strongly advise to go to the Control settings and wire wheel stering to the same axis you use for yaw control, else you might have a hard time staying on the runway on landing
+- The Ferram control surfaces come pre-set to be compatible with my reentry script, if you use other scripts you might want to re-configure them yourself.
 
 ## Realistic Aerodynamics (experimental)
 
@@ -43,15 +43,17 @@ these configs are tailored and balanced to the Shuttle's dimensions.
 - The cabin hatch is no longer functional. Some animation names clash in the assembled parts, and something had to give
 - There appears to be a long-standing bug in KSP where if the root part of your ship is a cargo bay, anything inside of it will have drag calculated even if it should be occluded.
 
-## Other changes:
+## New rudder parts (Experimental=
 
-**Tail / Rudder (Experimental)**
+**Tail with Rudder**
 I created a new part which is the assembly of the tail and the split rudder. This should now be a functional split airbrake part, with two panel transforms that can be intependently controlled.
 To achieve this I had to re-arrange the part transforms in Unity and also remove the Ferram configs for the control surface, since only one can be put in a .cfg file at one time and it controls only one transform at a time.  
 The rudder uses two stock control surface modules for now
 
-**Split rudder panel  (Experimental)**
+**Split rudder panel**
 This is another new part, which is just one of the panels that make up the Shuttle rudder control surface. You can place manually two of these on the standard tail fin and control the mindependently as Ferram control ssurfaces. This is not as draggy as I'd like
+
+## Other changes:
 
 **Textures and part variants:**
 - custom ET textures
