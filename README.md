@@ -11,6 +11,7 @@ My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modific
 - Community Resource Pack
 - Textures Unlimited
 - TAC Life Support or Kerbalism, both are supported (Kerbalism is WIP)
+- Waterfall
 - [My personal fork of Ferram Aerospace Research for the custom aerodynamic model](https://github.com/giuliodondi/Ferram-Aerospace-Research-modded)
 
 ## INSTALLATION
