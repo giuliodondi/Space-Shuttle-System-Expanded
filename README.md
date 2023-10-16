@@ -13,9 +13,13 @@ My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modific
 - TAC Life Support or Kerbalism, both are supported (Kerbalism is WIP)
 - [My personal fork of Ferram Aerospace Research for the custom aerodynamic model](https://github.com/giuliodondi/Ferram-Aerospace-Research-modded)
 
-**Configuration**
-- If you use a joystick, I strongly advise to go to the Control settings and wire wheel stering to the same axis you use for yaw control, else you might have a hard time staying on the runway on landing
-- The Ferram control surfaces come pre-set to be compatible with my reentry script, if you use other scripts you might want to re-configure them yourself.
+## INSTALLATION
+
+- **Check if you already have a GameData/SPACE_SHUTTLE_SYSTEM folder, if so delete it**
+- Copy the contents of **GameData** in your KSP GameData, overwriting if asked
+- You can ignore the **FARShuttleAerodynamicModel** folder, it's the source code for the custom aerodynamic module
+- If you use a joystick, I strongly advise to go to the KSP Control settings and wire wheel stering to the same axis you use for yaw control, else you might have a hard time tracking the runway on landing
+- The Shuttle control surfaces come pre-configured to be compatible with my reentry script, if you use other scripts you might want to re-configure them yourself.
 
 ## Realistic Aerodynamics (experimental)
 
