@@ -1,18 +1,18 @@
 # Space Shuttle System Expanded
 
-## Updated October 2023
-
 My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modifications. Tested in 1.12.3
 
 <figure>
+<figcaption align = "center"><b>Textures and Waterfall reworked</b></figcaption>	
 <img src="https://github.com/giuliodondi/Space-Shuttle-System-Expanded/blob/master/shuttle-system-screen1.png" alt="Trulli" style="width:80%">
-<figcaption align = "center"><b>Textures and Waterfall reworked</b></figcaption>
 </figure>
 
 <figure>
-<img src="https://github.com/giuliodondi/Space-Shuttle-System-Expanded/blob/master/screenshot126.png" alt="Trulli" style="width:80%">
 <figcaption align = "center"><b>Custom aerodynamic model and functional split rudder</b></figcaption>
+<img src="https://github.com/giuliodondi/Space-Shuttle-System-Expanded/blob/master/screenshot126.png" alt="Trulli" style="width:80%">
 </figure>
+
+## Updated October 2023
 
 ## DEPENDENCIES (install the latest compatible version):
 - ASET Consolidated Avionics Pack (for the cockpit props)
