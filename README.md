@@ -31,6 +31,7 @@ My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modific
 - You can ignore the **FARShuttleAerodynamicModel** folder, it's the source code for the custom aerodynamic module
 - If you use a joystick, I strongly advise to go to the KSP Control settings and wire wheel stering to the same axis you use for yaw control, else you might have a hard time tracking the runway on landing
 - The Shuttle control surfaces come pre-configured to be compatible with my reentry script, if you use other scripts you might want to re-configure them yourself.
+- If you just updated the Space-Shuttle-System mod, **you will need to re-assemble from scratch the Shuttle in the SPH/VAB and save it anew, at the very least the Orbiter**. This is because some part modules like control surfaces get stored as part of the craft file and, as such, do not inherit the part modifications.
 
 ## Realistic Aerodynamics (experimental)
 
