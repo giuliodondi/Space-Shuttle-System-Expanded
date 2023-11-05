@@ -4,12 +4,12 @@ My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modific
 
 <figure>
 <figcaption align = "center"><b>Textures and Waterfall reworked</b></figcaption>	
-<img src="https://github.com/giuliodondi/Space-Shuttle-System-Expanded/blob/master/shuttle-system-screen1.png" alt="Trulli" style="width:80%">
+<img src="https://github.com/giuliodondi/Space-Shuttle-System-Expanded/blob/master/shuttle-system-screen1.png" style="width:80%">
 </figure>
 
 <figure>
 <figcaption align = "center"><b>Custom aerodynamic model and functional split rudder</b></figcaption>
-<img src="https://github.com/giuliodondi/Space-Shuttle-System-Expanded/blob/master/screenshot126.png" alt="Trulli" style="width:80%">
+<img src="https://github.com/giuliodondi/Space-Shuttle-System-Expanded/blob/master/shuttle-system-screen2" style="width:80%">
 </figure>
 
 ## Updated October 2023
