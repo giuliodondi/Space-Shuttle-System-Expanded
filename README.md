@@ -12,7 +12,7 @@ My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modific
 <img src="https://github.com/giuliodondi/Space-Shuttle-System-Expanded/blob/master/shuttle-system-screen2.png" style="width:80%">
 </figure>
 
-## Updated October 2023
+## Updated January 2024
 
 ## DEPENDENCIES (install the latest compatible version):
 - ASET Consolidated Avionics Pack (for the cockpit props)
@@ -32,6 +32,11 @@ My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modific
 - If you use a joystick, I strongly advise to go to the KSP Control settings and wire wheel stering to the same axis you use for yaw control, else you might have a hard time tracking the runway on landing
 - The Shuttle control surfaces come pre-configured to be compatible with my reentry script, if you use other scripts you might want to re-configure them yourself.
 - If you just updated the Space-Shuttle-System mod, **you will need to re-assemble from scratch the Shuttle in the SPH/VAB and save it anew, at the very least the Orbiter**. This is because some part modules like control surfaces get stored as part of the craft file and, as such, do not inherit the part modifications.
+
+## Known Issues
+- The SRB bottom separator motors have their thrust transforms broken, I advise not to install them and use something else. The nose cone separator motors work fine.
+- For reasons explained below, some animations like the cabin hatch are no longer functional
+- The split rudder, when fully open, can induce yaw instability
 
 ## Realistic Aerodynamics (experimental)
 
