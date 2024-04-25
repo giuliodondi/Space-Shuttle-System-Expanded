@@ -3,7 +3,12 @@ guid: a05ad173b9a39074ea0eb2b3ff691419
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WINGS_AND_BOTTOM
+    second: {fileID: 2100000, guid: cb40086fea0e79d4d97cde00fc027826, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -88,7 +93,7 @@ ModelImporter:
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 2
+  animationType: 1
   humanoidOversampling: 1
   avatarSetup: 0
   additionalBone: 0

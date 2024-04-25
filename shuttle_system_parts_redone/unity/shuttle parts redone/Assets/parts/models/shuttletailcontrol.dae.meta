@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: WINGS_AND_BOTTOM
-    second: {fileID: 2100000, guid: 3ef54a1f86fa53e4f9f8b2bb5b9485ee, type: 2}
+    second: {fileID: 2100000, guid: cb40086fea0e79d4d97cde00fc027826, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -93,7 +93,7 @@ ModelImporter:
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 2
+  animationType: 1
   humanoidOversampling: 1
   avatarSetup: 0
   additionalBone: 0
