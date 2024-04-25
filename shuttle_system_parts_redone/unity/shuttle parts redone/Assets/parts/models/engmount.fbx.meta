@@ -1,12 +1,37 @@
 fileFormatVersion: 2
-guid: 6eb8f2696e9269c45a219deeb4062f6c
+guid: f375fb3a2bf8f1e4b97dc9a09359a902
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable:
   - first:
       74: -623603649343465320
-    second: et_doors
-  externalObjects: {}
+    second: ETdoors
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ENGINE_MOUT
+    second: {fileID: 2100000, guid: dbd2a657e7d67b7419ad83c5461d534a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SSUbay
+    second: {fileID: 2100000, guid: e05d3b968cb565c4a9df4b99020b13c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: STSAtlantis
+    second: {fileID: 2100000, guid: e05d3b968cb565c4a9df4b99020b13c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WINGS_AND_BOTTOM
+    second: {fileID: 2100000, guid: cb40086fea0e79d4d97cde00fc027826, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: carg
+    second: {fileID: 2100000, guid: 44e0fc2855d5b1449b4542cdcce49cd6, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -35,7 +60,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: et_doors
+      name: ETdoors
       takeName: Scene
       internalID: 0
       firstFrame: 1
