@@ -81,5 +81,5 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _RimColor: {r: 0, g: 0, b: 0, a: 0}
-    - _SpecColor: {r: 0.4509804, g: 0.4509804, b: 0.4509804, a: 1}
+    - _SpecColor: {r: 0, g: 0, b: 0, a: 1}
     - _TemperatureColor: {r: 0, g: 0, b: 0, a: 0}

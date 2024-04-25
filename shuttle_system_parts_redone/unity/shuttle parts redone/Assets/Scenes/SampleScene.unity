@@ -4125,6 +4125,7 @@ GameObject:
   - component: {fileID: 4016643922011727025}
   - component: {fileID: 10137853666452415}
   - component: {fileID: 2010549519}
+  - component: {fileID: 1571808779156983775}
   m_Layer: 0
   m_Name: FUSELAGE_001
   m_TagString: Untagged
@@ -4132,6 +4133,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &1571808779156983775
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571808779156983774}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7018041706292331808, guid: 282dbe6ba28f2854ea4c1eeb4c62cd9b, type: 3}
 --- !u!1 &1591481629033426164
 GameObject:
   m_ObjectHideFlags: 0
@@ -4902,6 +4917,7 @@ GameObject:
   - component: {fileID: 8949237310765539835}
   - component: {fileID: 2942796429972309795}
   - component: {fileID: 2010549520}
+  - component: {fileID: 2244064732838902939}
   m_Layer: 0
   m_Name: FRCS_MODULE
   m_TagString: Untagged
@@ -4909,6 +4925,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &2244064732838902939
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2244064732838902938}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 441787779693937723, guid: 282dbe6ba28f2854ea4c1eeb4c62cd9b, type: 3}
 --- !u!4 &2245629409009841593
 Transform:
   m_ObjectHideFlags: 0
@@ -8058,7 +8088,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 8186028046951300384, guid: df03ff05f4b78df44845188aea2087d4, type: 3}
 --- !u!111 &4543949674850267589
@@ -12492,7 +12522,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4305957193590709017}
   m_LocalRotation: {x: 0.000000053385076, y: 0.7071067, z: 0.7071068, w: 0.000000053385076}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: 0.00007, z: -0.00012}
   m_LocalScale: {x: 1.02, y: 1.02, z: 1.02}
   m_Children:
   - {fileID: 3656694843806965584}
