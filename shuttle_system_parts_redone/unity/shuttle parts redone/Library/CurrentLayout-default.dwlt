@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 108
+  controlID: 36
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 35
+  controlID: 144
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 36
+  controlID: 145
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -441,11 +441,11 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/parts/materials
+    - Assets/parts/models
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/parts/materials
+  - Assets/parts/models
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Steam\steamapps\common\Kerbal Space Program - 1.12.5 - ROlite\shuttle_system_parts_redone\unity\shuttle
     parts redone
@@ -453,9 +453,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 56440000
-    m_LastClickedID: 17494
-    m_ExpandedIDs: 000000001c4400004a44000000ca9a3b
+    m_SelectedIDs: 54440000
+    m_LastClickedID: 17492
+    m_ExpandedIDs: 00000000424400004844000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -483,7 +483,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001c440000
+    m_ExpandedIDs: 0000000042440000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -568,9 +568,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 5cfbffff2a37000066370000d6380000
+      m_SelectedIDs: 8c3d0000
+      m_LastClickedID: 15756
+      m_ExpandedIDs: acfaffff743a0000fa3a0000fc3a00000e3b0000963b0000ea3b00000c3c00001a3c00002e3c00002a3f0000623f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -630,9 +630,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 60.402313, y: -20.470947, z: 26.026829}
+    m_Target: {x: 38.196346, y: -64.731476, z: -67.317024}
     speed: 2
-    m_Value: {x: 60.402313, y: -20.470947, z: 26.026829}
+    m_Value: {x: 38.196346, y: -64.731476, z: -67.317024}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -678,13 +678,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.116369255, y: -0.47168738, z: 0.061599884, w: -0.8722989}
+    m_Target: {x: -0.093622565, y: -0.90211475, z: 0.34700575, w: -0.24029239}
     speed: 2
-    m_Value: {x: -0.11511027, y: -0.47029832, z: 0.060696658, w: -0.8728603}
+    m_Value: {x: -0.09322851, y: -0.9023052, z: 0.34552604, w: -0.24034469}
   m_Size:
-    m_Target: 50.41764
+    m_Target: 59.75946
     speed: 2
-    m_Value: 48.246548
+    m_Value: 57.186085
   m_Ortho:
     m_Target: 0
     speed: 2
