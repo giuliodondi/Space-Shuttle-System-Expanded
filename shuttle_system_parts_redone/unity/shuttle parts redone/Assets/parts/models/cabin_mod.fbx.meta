@@ -30,6 +30,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 19663e3e97bb19e478798156d33f0a20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: SSUbay.005
     second: {fileID: 2100000, guid: e05d3b968cb565c4a9df4b99020b13c7, type: 2}
   - first:
