@@ -24327,7 +24327,6 @@ GameObject:
   - component: {fileID: 4001582996702262380}
   - component: {fileID: 9099490112822942663}
   - component: {fileID: 6578637379083877996}
-  - component: {fileID: 3411092417321163446}
   m_Layer: 0
   m_Name: BOX.003|mesh:BOX.003|Dupli|
   m_TagString: Untagged
@@ -24335,20 +24334,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &3411092417321163446
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3411092417321163445}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 7913146905410456566, guid: 7bf394ef152dac74995290db43d600ac, type: 3}
 --- !u!1 &3411806157847249220
 GameObject:
   m_ObjectHideFlags: 0
@@ -24779,7 +24764,6 @@ GameObject:
   - component: {fileID: 7421239926259305982}
   - component: {fileID: 1465135079364634955}
   - component: {fileID: 1492872742921180218}
-  - component: {fileID: 3627234250389209935}
   m_Layer: 0
   m_Name: BOX.004|mesh:BOX.004|Dupli|
   m_TagString: Untagged
@@ -24787,20 +24771,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &3627234250389209935
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3627234250389209934}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -9089144517737252321, guid: 7bf394ef152dac74995290db43d600ac, type: 3}
 --- !u!33 &3638174075320299064
 MeshFilter:
   m_ObjectHideFlags: 0
