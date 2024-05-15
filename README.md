@@ -36,6 +36,7 @@ My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modific
 
 ## Known Issues
 - The SRB bottom separator motors have their thrust transforms broken, I advise not to install them and use something else. The nose cone separator motors work fine.
+- If you jettison the rcs covers during ascent, they can collide with and destroy other parts. Disable them in the VAB
 - The split rudder, when fully open, can induce yaw instability. Up to about 3/4 it's fine
 - Cockpit internal pending rework
 - Wings no longer have colliders - required by the aero model to work correctly
