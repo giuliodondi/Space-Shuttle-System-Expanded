@@ -2,17 +2,17 @@
 
 My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modifications. Tested in 1.12.3
 
-<figure>
-<figcaption align = "center"><b>Textures and Waterfall reworked</b></figcaption>	
-<img src="https://github.com/giuliodondi/Space-Shuttle-System-Expanded/blob/master/shuttle-system-screen1.png" style="width:80%">
-</figure>
+## Updated May 2024
 
-<figure>
-<figcaption align = "center"><b>Custom aerodynamic model and functional split rudder</b></figcaption>
-<img src="https://github.com/giuliodondi/Space-Shuttle-System-Expanded/blob/master/shuttle-system-screen2.png" style="width:80%">
-</figure>
+|<img src="https://github.com/giuliodondi/Space-Shuttle-System-realistic-aerodynamics/blob/master/GameData/SPACE_SHUTTLE_SYSTEM/Screenshots/shuttle-system-screen1.png" width="500" /><br>Reworked Waterfall effects|<img src="https://github.com/giuliodondi/Space-Shuttle-System-realistic-aerodynamics/blob/master/GameData/SPACE_SHUTTLE_SYSTEM/Screenshots/shuttle-system-screen2.png" width="500" /><br>Texture overhaul and new liveries|
+|:-:|:-:|
 
-## Updated January 2024
+|<img src="https://github.com/giuliodondi/Space-Shuttle-System-realistic-aerodynamics/blob/master/GameData/SPACE_SHUTTLE_SYSTEM/Screenshots/shuttle-system-screen6.png" width="500" /><br>Reentry heating glow|<img src="https://github.com/giuliodondi/Space-Shuttle-System-realistic-aerodynamics/blob/master/GameData/SPACE_SHUTTLE_SYSTEM/Screenshots/shuttle-system-screen5.png" width="500" /><br>Custom aerodynamic model - working rudder airbrake|
+|:-:|:-:|
+
+|<img src="https://github.com/giuliodondi/Space-Shuttle-System-realistic-aerodynamics/blob/master/GameData/SPACE_SHUTTLE_SYSTEM/Screenshots/shuttle-system-screen3.png" width="500" /><br>Payload bay lighting|<img src="https://github.com/giuliodondi/Space-Shuttle-System-realistic-aerodynamics/blob/master/GameData/SPACE_SHUTTLE_SYSTEM/Screenshots/shuttle-system-screen4.png" width="500" /><br>Cockpit external model|
+|:-:|:-:|
+
 
 ## DEPENDENCIES (install the latest compatible version):
 - ASET Consolidated Avionics Pack (for the cockpit props)
@@ -35,8 +35,9 @@ My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modific
 
 ## Known Issues
 - The SRB bottom separator motors have their thrust transforms broken, I advise not to install them and use something else. The nose cone separator motors work fine.
-- For reasons explained below, some animations like the cabin hatch are no longer functional
-- The split rudder, when fully open, can induce yaw instability
+- The split rudder, when fully open, can induce yaw instability. Up to about 3/4 it's fine
+- Cockpit internal pending rework
+- The hatch animation is now fixed but the hatch itself is not functional, work in progress
 
 ## Realistic Aerodynamics (experimental)
 
@@ -65,7 +66,7 @@ The configs are tailored and balanced to the Shuttle's dimensions.
 - To be able to maintain reasonable stability on landing and high-AoA on reentry, the Cl movement calculations as a function of Mach were brutally disabled. The model is now adjusted to require little flap trim on Entry in normal conditions and be within flap trim limits when very tail-heavy (like a TAL abort)
 - **The Shuttle is meant to be slightly pitch-unstable when subsonic, please take a look at the Aerodynamic data book, section 4.1.1.3. Pitch trim and responsive, continuous control inputs are needed for a stable landing**
 - I had to split the main landing gear bogey into two separate parts while keeping the nose gear as part of the Orbiter part, to get the deploy animations right  
-- The cabin hatch is no longer functional. Some animation names clash in the assembled parts, and something had to give
+- <s>The cabin hatch is no longer functional. Some animation names clash in the assembled parts, and something had to give</s>
 - There appears to be a long-standing bug in KSP where if the root part of your ship is a cargo bay, anything inside of it will have drag calculated even if it should be occluded.
 
 ## Functioning split rudder airbrake (Experimental)
