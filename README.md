@@ -13,6 +13,7 @@ My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modific
 |<img src="https://github.com/giuliodondi/Space-Shuttle-System-realistic-aerodynamics/blob/master/GameData/SPACE_SHUTTLE_SYSTEM/Screenshots/shuttle-system-screen3.png" width="500" /><br>Payload bay lighting|<img src="https://github.com/giuliodondi/Space-Shuttle-System-realistic-aerodynamics/blob/master/GameData/SPACE_SHUTTLE_SYSTEM/Screenshots/shuttle-system-screen4.png" width="500" /><br>Cockpit external model|
 |:-:|:-:|
 
+<b>Special thanks to FlandreScarlet1 for modelling work on the cockpit and rudder</b>
 
 ## DEPENDENCIES (install the latest compatible version):
 - ASET Consolidated Avionics Pack (for the cockpit props)
@@ -37,6 +38,7 @@ My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modific
 - The SRB bottom separator motors have their thrust transforms broken, I advise not to install them and use something else. The nose cone separator motors work fine.
 - The split rudder, when fully open, can induce yaw instability. Up to about 3/4 it's fine
 - Cockpit internal pending rework
+- Wings no longer have colliders - required by the aero model to work correctly
 - The hatch animation is now fixed but the hatch itself is not functional, work in progress
 
 ## Realistic Aerodynamics (experimental)
