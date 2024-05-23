@@ -47,6 +47,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: flagDecal
     second: {fileID: 2100000, guid: 0683af86f82689d4c9f54b247e5a3bbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tailcone
+    second: {fileID: 2100000, guid: 43f596c85d67aed4dbd82effba5deab7, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
