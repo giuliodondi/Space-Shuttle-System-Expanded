@@ -1,6 +1,6 @@
 # Space Shuttle System with realistic aerodynamics
 
-My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modifications. Tested in 1.12.3
+My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modifications. Intended for Realism Overhaul. Tested in 1.12.3
 
 ## All new releases should be considered craft- and save-breaking!
 
