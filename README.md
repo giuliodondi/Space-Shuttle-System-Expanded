@@ -20,6 +20,7 @@ My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modific
 - B9 Parts Switch
 - KSPWheel
 - Community Resource Pack
+- Realism Overhaul and all the dependencies
 - Textures Unlimited
 - TAC Life Support or Kerbalism, both are supported (Kerbalism is WIP)
 - Waterfall
@@ -27,6 +28,8 @@ My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modific
 
 ## INSTALLATION
 
+- Install all the requirements
+- **Delete any exsting Space Shuttle RO config in the folder GameData/RealismOverhaul/RO_SuggestedMods/SpaceShuttleSystem**
 - **Check if you already have a GameData/SPACE_SHUTTLE_SYSTEM folder, if so delete it**
 - Copy the contents of **GameData** in your KSP GameData, overwriting if asked
 - You can ignore the **FARShuttleAerodynamicModel** folder, it's the source code for the custom aerodynamic module
