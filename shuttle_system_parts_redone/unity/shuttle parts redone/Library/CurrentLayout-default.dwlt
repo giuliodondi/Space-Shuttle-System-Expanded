@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 1257
+    x: 1250
     y: 51
     width: 2182
-    height: 1348
+    height: 1341
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
 --- !u!114 &2
@@ -42,7 +42,7 @@ MonoBehaviour:
     x: 1557
     y: 0
     width: 625
-    height: 1298
+    height: 1291
   m_MinSize: {x: 276, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 12}
@@ -70,11 +70,11 @@ MonoBehaviour:
     x: 0
     y: 30
     width: 2182
-    height: 1298
+    height: 1291
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 16
+  controlID: 14
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -93,7 +93,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 577
-    height: 705
+    height: 701
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
@@ -117,9 +117,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 705
+    y: 701
     width: 1557
-    height: 593
+    height: 590
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 14}
@@ -149,8 +149,8 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 2182
-    height: 1348
-  m_MinSize: {x: 875, y: 542}
+    height: 1341
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -190,7 +190,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 1328
+    y: 1321
     width: 2182
     height: 20
   m_MinSize: {x: 0, y: 0}
@@ -215,11 +215,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1557
-    height: 1298
+    height: 1291
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 104
+  controlID: 15
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -240,11 +240,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1557
-    height: 705
+    height: 701
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 105
+  controlID: 16
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -263,7 +263,7 @@ MonoBehaviour:
     x: 577
     y: 0
     width: 980
-    height: 705
+    height: 701
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
@@ -294,10 +294,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2814
+    x: 2807
     y: 81
     width: 624
-    height: 1277
+    height: 1270
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -358,10 +358,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1257
-    y: 786
+    x: 1250
+    y: 782
     width: 1556
-    height: 572
+    height: 569
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -376,11 +376,11 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/parts/models
+    - Assets/parts/materials
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/parts/models
+  - Assets/parts/materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Steam\steamapps\common\Kerbal Space Program\shuttle_system_parts_redone\unity\shuttle
     parts redone
@@ -388,9 +388,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3c530000
-    m_LastClickedID: 21308
-    m_ExpandedIDs: 00000000225300002853000000ca9a3b
+    m_SelectedIDs: 444a0000
+    m_LastClickedID: 19012
+    m_ExpandedIDs: 00000000264a00003a4a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -418,7 +418,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000022530000
+    m_ExpandedIDs: 00000000264a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -445,7 +445,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000f0340000f2340000f83c00009c4000005c43000000000000064d0000a03c0000fc380000044d0000ec51000006340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -495,17 +495,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1257
+    x: 1250
     y: 81
     width: 576
-    height: 684
+    height: 680
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 1009}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 926dfeff68cdfeff80cdfeffa2cdfeffa8cdfeffb4cdfeffd6cdfeffe2cdfeff52cefeff6acefeff94cefeff9ccefeffd8cefeff00cffeff02cffeff0acffeff2ccffeff3ccffeff0c7fffff207fffffd27fffff1a80ffff3e80ffff5880ffff7080ffff8c80ffff3281ffff74a3ffff7aa3ffffdca3ffff4ca4ffffaca4ffffdea4fffffaa4ffffa0a5ffff32ccffff42430000ca480000fe4800000a49000024490000f84a00008e4b0000ae4b0000864c00003a4d0000b24d00000a4e0000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: fc370000
+      m_LastClickedID: 14332
+      m_ExpandedIDs: 3af3ffff4af3ffff6afbfffffc370000643b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -550,10 +550,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1834
+    x: 1827
     y: 81
     width: 978
-    height: 684
+    height: 680
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: cf67a449f9375e043906742a62741106
@@ -565,9 +565,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 25.441788, y: 9.474499, z: 18.826988}
+    m_Target: {x: -3.344717, y: 0.079618454, z: 1.7492459}
     speed: 2
-    m_Value: {x: 25.441788, y: 9.474499, z: 18.826988}
+    m_Value: {x: -3.344717, y: 0.079618454, z: 1.7492459}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -613,13 +613,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.14119838, y: 0.44746456, z: 0.07507045, w: 0.8804186}
+    m_Target: {x: -0.21993984, y: 0.66388506, z: -0.21842098, w: -0.6812623}
     speed: 2
-    m_Value: {x: -0.14245182, y: 0.44714248, z: 0.075707205, w: 0.87979513}
+    m_Value: {x: -0.22016345, y: 0.66255015, z: -0.21798809, w: -0.6819359}
   m_Size:
-    m_Target: 21.217083
+    m_Target: 5.4874997
     speed: 2
-    m_Value: 22.21684
+    m_Value: 5.1874995
   m_Ortho:
     m_Target: 0
     speed: 2
