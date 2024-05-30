@@ -67,7 +67,7 @@ Material:
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _Opacity: 0.101
+    - _Opacity: 0.19
     - _Parallax: 0.02
     - _RimFalloff: 0.1
     - _Shininess: 0.167
