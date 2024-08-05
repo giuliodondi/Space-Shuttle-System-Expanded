@@ -12,8 +12,14 @@ My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modific
 |<img src="https://github.com/giuliodondi/Space-Shuttle-System-realistic-aerodynamics/blob/master/GameData/SPACE_SHUTTLE_SYSTEM/Screenshots/shuttle-system-screen6.png" width="500" /><br>Reentry heating glow|<img src="https://github.com/giuliodondi/Space-Shuttle-System-realistic-aerodynamics/blob/master/GameData/SPACE_SHUTTLE_SYSTEM/Screenshots/shuttle-system-screen5.png" width="500" /><br>Custom aerodynamic model - working rudder airbrake|
 |:-:|:-:|
 
+|<img src="https://github.com/giuliodondi/Space-Shuttle-System-realistic-aerodynamics/blob/master/GameData/SPACE_SHUTTLE_SYSTEM/Screenshots/shuttle-system-screen7.png" width="500" /><br>Mirrored SRB decouplers|<img src="https://github.com/giuliodondi/Space-Shuttle-System-realistic-aerodynamics/blob/master/GameData/SPACE_SHUTTLE_SYSTEM/Screenshots/shuttle-system-srb-sep.gif" width="500" /><br>Fixed SRB separation motors|
+|:-:|:-:|
+
 |<img src="https://github.com/giuliodondi/Space-Shuttle-System-realistic-aerodynamics/blob/master/GameData/SPACE_SHUTTLE_SYSTEM/Screenshots/shuttle-system-screen3.png" width="500" /><br>Payload bay lighting|<img src="https://github.com/giuliodondi/Space-Shuttle-System-realistic-aerodynamics/blob/master/GameData/SPACE_SHUTTLE_SYSTEM/Screenshots/shuttle-system-screen4.png" width="500" /><br>Cockpit external model|
 |:-:|:-:|
+
+
+
 
 <b>Special thanks to FlandreScarlet1 for modelling work on the cockpit and rudder</b>
 
@@ -41,12 +47,9 @@ My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modific
 - Every time in the future that you update RO, the Shuttle configs will be overwritten. You must restore them manually of the mod will be broken
 
 ## Known Issues
-- The SRB bottom separator motors have their thrust transforms broken, I advise not to install them and use something else. The nose cone separator motors work fine.
-- If you jettison the rcs covers during ascent, they can collide with and destroy other parts. Disable them in the VAB
 - The split rudder, when fully open, can induce yaw instability. Up to about 3/4 it's fine
 - Cockpit internal pending rework
 - Wings no longer have colliders - required by the aero model to work correctly
-- The hatch animation is now fixed but the hatch itself is not functional, work in progress
 
 ## Realistic Aerodynamics (experimental)
 
@@ -100,12 +103,15 @@ I do not recommend using this part, as it doesn't generate nearly as much drag a
 
 ## Other changes:
 
-**Textures and part variants:**
+**Textures and part modifications:**
+- complete part rework with model fixed all around
+- heat shield glow emissive effect
+- SRB separation motors fixed
 - custom ET textures
 - New SRB texture variants for booster and nosecone, added lighter Filament-Wound booster variant 
 - Cabin texture reworked, ejection seat panels for Enterprise and old Columbia, custom tile patterns around the side hatch, unique tiles on the forward RCS block
 - Cargo bay and engine mount texture reworked
-- Fictional Enterprise orbital version
+- Fictional Enterprise orbital version and Moonraker
 - Tail texture reworked for Challenger and Columbia SILTS pod
 - New elevon variant with original Columbia tile pattern
 - New normal maps for all part variants
