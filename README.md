@@ -6,7 +6,7 @@ My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modific
 
 ## Updated August 2024
 
-|<img src="https://github.com/giuliodondi/Space-Shuttle-System-realistic-aerodynamics/blob/master/GameData/SPACE_SHUTTLE_SYSTEM/Screenshots/shuttle-system-screen1.png" width="500" /><br>Reworked Waterfall effects|<img src="https://github.com/giuliodondi/Space-Shuttle-System-realistic-aerodynamics/blob/master/GameData/SPACE_SHUTTLE_SYSTEM/Screenshots/shuttle-system-screen2.png" width="500" /><br>Texture overhaul and new liveries|
+|<img src="https://github.com/giuliodondi/Space-Shuttle-System-realistic-aerodynamics/blob/master/GameData/SPACE_SHUTTLE_SYSTEM/Screenshots/shuttle-system-plume.gif" width="400" /><br>Reworked Waterfall effects|<img src="https://github.com/giuliodondi/Space-Shuttle-System-realistic-aerodynamics/blob/master/GameData/SPACE_SHUTTLE_SYSTEM/Screenshots/shuttle-system-screen2.png" width="500" /><br>Texture overhaul and new liveries|
 |:-:|:-:|
 
 |<img src="https://github.com/giuliodondi/Space-Shuttle-System-realistic-aerodynamics/blob/master/GameData/SPACE_SHUTTLE_SYSTEM/Screenshots/shuttle-system-screen6.png" width="500" /><br>Reentry heating glow|<img src="https://github.com/giuliodondi/Space-Shuttle-System-realistic-aerodynamics/blob/master/GameData/SPACE_SHUTTLE_SYSTEM/Screenshots/shuttle-system-screen5.png" width="500" /><br>Custom aerodynamic model - working rudder airbrake|
@@ -15,7 +15,7 @@ My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modific
 |<img src="https://github.com/giuliodondi/Space-Shuttle-System-realistic-aerodynamics/blob/master/GameData/SPACE_SHUTTLE_SYSTEM/Screenshots/shuttle-system-screen7.png" width="500" /><br>Mirrored SRB decouplers|<img src="https://github.com/giuliodondi/Space-Shuttle-System-realistic-aerodynamics/blob/master/GameData/SPACE_SHUTTLE_SYSTEM/Screenshots/shuttle-system-srb-sep.gif" width="500" /><br>Fixed SRB separation motors|
 |:-:|:-:|
 
-|<img src="https://github.com/giuliodondi/Space-Shuttle-System-realistic-aerodynamics/blob/master/GameData/SPACE_SHUTTLE_SYSTEM/Screenshots/shuttle-system-screen3.png" width="500" /><br>Payload bay lighting|<img src="https://github.com/giuliodondi/Space-Shuttle-System-realistic-aerodynamics/blob/master/GameData/SPACE_SHUTTLE_SYSTEM/Screenshots/shuttle-system-screen4.png" width="500" /><br>Cockpit external model|
+|<img src="https://github.com/giuliodondi/Space-Shuttle-System-realistic-aerodynamics/blob/master/GameData/SPACE_SHUTTLE_SYSTEM/Screenshots/shuttle-system-screen3.png" width="500" /><br>Payload bay lighting|<img src="https://github.com/giuliodondi/Space-Shuttle-System-realistic-aerodynamics/blob/master/GameData/SPACE_SHUTTLE_SYSTEM/Screenshots/shuttle-system-screen8.png" width="500" /><br>Tailcone option|
 |:-:|:-:|
 
 
