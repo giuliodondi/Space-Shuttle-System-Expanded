@@ -20,7 +20,6 @@ My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modific
 
 
 
-
 <b>Special thanks to FlandreScarlet1 for modelling work on the cockpit and rudder</b>
 
 ## DEPENDENCIES (install the latest compatible version):
@@ -41,15 +40,31 @@ My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modific
 - **Check if you already have a GameData/SPACE_SHUTTLE_SYSTEM folder, if so delete it**
 - Copy the contents of **GameData** in your KSP GameData, overwriting if asked
 - You can ignore the **FARShuttleAerodynamicModel** folder, it's the source code for the custom aerodynamic module
-- If you use a joystick, I strongly advise to go to the KSP Control settings and wire wheel stering to the same axis you use for yaw control, else you might have a hard time tracking the runway on landing
-- The Shuttle control surfaces come pre-configured to be compatible with my reentry script, if you use other scripts you might want to re-configure them yourself.
-- If you just updated the Space-Shuttle-System mod, **you will need to re-assemble from scratch the Shuttle in the SPH/VAB and save it anew, at the very least the Orbiter**. This is because some part modules like control surfaces get stored as part of the craft file and, as such, do not inherit the part modifications.
 - Every time in the future that you update RO, the Shuttle configs will be overwritten. You must restore them manually of the mod will be broken
+
+## Assembling the Shuttle stack
+
+### If you just updated the mod you will need to re-assemble from scratch the Shuttle in the SPH/VAB and save it anew
+This is because some part modules like control surfaces get stored as part of the craft file and, as such, do not inherit the part modifications.
+
+- If you use a joystick, I strongly advise to go to the KSP Control settings and wire wheel stering to the same axis you use for yaw control, else you might have a hard time tracking the runway on landing
+- The root part is the pre-assembled Orbiter, of which you have a variant with cockpit gauges and one without
+- The mod comes with its own version of the RS-25 and AJ10-190 engines, if you use RO engines these will have been overwritten
+- The Orbiter and OMS pods have toggleable RCS covers. They do not impede the actual RCS if you leave them on, but they can't be removed in flight
+- The Shuttle control surfaces come pre-configured to be compatible with my reentry script, if you use other scripts you might want to re-configure them yourself.
+- The External Tank has placement nodes to snap the SRB decouplers in the right place
+- Likewise, the decouplers have snap nodes for the SRBs themselves
+- Take care to place the left/right SRB aft separation motors on the correct side
+- The SRB forward cones should be facing the Orbiter side and be rotated just a little bit towards the Orbiter for correct separation
+- Do not place launch clamps on the side oppsite the Orbiter, the stack will translate in that direction at liftoff and you may have a collision
+- Set the fuel flow priority higher on the External Tank and lower on the Orbiter or you may lose the propellants for the fuel cells
 
 ## Known Issues
 - The split rudder, when fully open, can induce yaw instability. Up to about 3/4 it's fine
 - Cockpit internal pending rework
 - Wings no longer have colliders - required by the aero model to work correctly
+
+# History of changes
 
 ## Realistic Aerodynamics (experimental)
 
