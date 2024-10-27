@@ -18,66 +18,6 @@ ModelImporter:
   - first:
       74: -8004811508225985054
     second: Tail_NO_Chute.obj
-  - first:
-      74: 8161298394362907575
-    second: CANOPY|CANOPY.obj
-  - first:
-      74: -5199210167235084805
-    second: CANOPY|cord.obj
-  - first:
-      74: -7741629607814812604
-    second: CANOPY|cord.obj.001
-  - first:
-      74: 3598945841007316192
-    second: CANOPY|Parashute.obj
-  - first:
-      74: -3827161331636820574
-    second: CANOPY|Tail_NO_Chute.obj
-  - first:
-      74: -5579088074928808566
-    second: cord|CANOPY.obj
-  - first:
-      74: 1120013273101250368
-    second: cord|cord.obj
-  - first:
-      74: -8387871758498741461
-    second: cord|cord.obj.001
-  - first:
-      74: -7480798896241256423
-    second: cord|Parashute.obj
-  - first:
-      74: 119458449686978100
-    second: cord|Tail_NO_Chute.obj
-  - first:
-      74: 5857085170419925291
-    second: Parashute|CANOPY.obj
-  - first:
-      74: -5310870640974771562
-    second: Parashute|cord.obj
-  - first:
-      74: 2575278235909553430
-    second: Parashute|cord.obj.001
-  - first:
-      74: -7722626804771740731
-    second: Parashute|Parashute.obj
-  - first:
-      74: -1383576156570403531
-    second: Parashute|Tail_NO_Chute.obj
-  - first:
-      74: -686613219483789648
-    second: Tail_NO_Chute|CANOPY.obj
-  - first:
-      74: 5928044183184828989
-    second: Tail_NO_Chute|cord.obj
-  - first:
-      74: 8645942959309927488
-    second: Tail_NO_Chute|cord.obj.001
-  - first:
-      74: -7115873576640528
-    second: Tail_NO_Chute|Parashute.obj
-  - first:
-      74: 2053819626995130535
-    second: Tail_NO_Chute|Tail_NO_Chute.obj
   externalObjects: {}
   materials:
     materialImportMode: 1
@@ -163,7 +103,7 @@ ModelImporter:
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 2
+  animationType: 1
   humanoidOversampling: 1
   avatarSetup: 0
   additionalBone: 0
