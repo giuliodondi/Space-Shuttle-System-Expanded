@@ -4,7 +4,7 @@ My personal fork of SpaceODY's Space-Shuttle-System-Expanded with my own modific
 
 ## All new releases should be considered craft- and save-breaking!
 
-## Updated August 2024
+## Updated October 2024
 
 |<img src="https://github.com/giuliodondi/Space-Shuttle-System-realistic-aerodynamics/blob/master/GameData/SPACE_SHUTTLE_SYSTEM/Screenshots/shuttle-system-plume.gif" width="400" /><br>Reworked Waterfall effects|<img src="https://github.com/giuliodondi/Space-Shuttle-System-realistic-aerodynamics/blob/master/GameData/SPACE_SHUTTLE_SYSTEM/Screenshots/shuttle-system-screen2.png" width="500" /><br>Texture overhaul and new liveries|
 |:-:|:-:|
